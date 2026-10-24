@@ -1,0 +1,579 @@
+{
+ "kit": 1,
+ "sets": "guwange+guwanges",
+ "check": "933cc18a31c03b4c2f235795edb86d888e3dc596e127ddb7ac6071e8e30ea409",
+ "built": "2026-10-23 21:33",
+ "source": "commit 296f591+changes",
+ "blobs": {
+  "manual": {
+   "file": "manual.bin",
+   "size": 28716472,
+   "sha256": "9661dd32615a020cc673893c0f3b282e079d780d2c3d81623af59ccdc82d94de",
+   "parts": [
+    {
+     "name": "guwange_omen_manual_n64.pdf",
+     "offset": 0,
+     "size": 4349929,
+     "sha256": "71892d708be23b2cf34ce0ef0fb51459e27cb7b5616254639be6ec15bb175070"
+    },
+    {
+     "name": "guwange_omen_manual_n64_ja.pdf",
+     "offset": 4349929,
+     "size": 7290693,
+     "sha256": "4d2e1a9cf910a1f94368832bf5628b49e9a180994badd9a2892d3d18a3c4bf47"
+    },
+    {
+     "name": "guwange_omen_manual_vita.pdf",
+     "offset": 11640622,
+     "size": 7059453,
+     "sha256": "e51655053fff24078e87e151fc29d7e75004cfba6ff058d32813f01645cd7a52"
+    },
+    {
+     "name": "guwange_omen_manual_vita_ja.pdf",
+     "offset": 18700075,
+     "size": 10016397,
+     "sha256": "768cb45e8c7a0bfd9682bb2c03099ac5436f9e70a88deb2c19b5b4f9f5dd3fa3"
+    }
+   ]
+  },
+  "n64": {
+   "file": "n64.bin",
+   "size": 61194240,
+   "sha256": "eef3237f6af16ecd60f1ae28521595fa2d762f9ac021559b58405c9ea55853aa",
+   "parts": [
+    {
+     "name": "image",
+     "offset": 0,
+     "size": 61194240,
+     "sha256": "eef3237f6af16ecd60f1ae28521595fa2d762f9ac021559b58405c9ea55853aa"
+    }
+   ]
+  },
+  "omen": {
+   "file": "omen.bin",
+   "size": 1087872,
+   "sha256": "1cd07a3d51b71e88f2bbc7a22f249e052d72637e7bbb41e00d8d6ae0d42a8ba3",
+   "parts": [
+    {
+     "name": "prog.xor",
+     "offset": 0,
+     "size": 1048576,
+     "sha256": "e2cbc93cd39b9813b2cfe881fda67f6a8ddc00d22016f52ad02e3a97822ca3fe"
+    },
+    {
+     "name": "spr.xor",
+     "offset": 1048576,
+     "size": 39296,
+     "sha256": "11d4b222d3165e05c35ad728db93f3d6f31f9fa35afe54eb7cb3dc0d490f68b1"
+    }
+   ]
+  },
+  "vita": {
+   "file": "vita.bin",
+   "size": 18534104,
+   "sha256": "cd404da4f81332553ad41260ea298ea74691fa33f2901e574ef18007780c1418",
+   "parts": [
+    {
+     "name": "sce_sys/param.sfo",
+     "offset": 0,
+     "size": 788,
+     "sha256": "0b49257abb194ebd85f57c134f38a17227b7bef3081db32fca7aec00d3425f44"
+    },
+    {
+     "name": "eboot.bin",
+     "offset": 788,
+     "size": 5636748,
+     "sha256": "6b44ab76ce117f6dd914886177d5c75b0ae7fbda7a729926fcd723e5c63d86ba"
+    },
+    {
+     "name": "art/wall.bin",
+     "offset": 5637536,
+     "size": 2088960,
+     "sha256": "550e24e924b3a539e73517e70cb4c4d3cab08cb8ac03877ce808a62be83640ab"
+    },
+    {
+     "name": "art/logo.bin",
+     "offset": 7726496,
+     "size": 294880,
+     "sha256": "9eeb11215c71e9df79896fdbc56fd351c29d507a8529fb2b77b88d1465ddfc45"
+    },
+    {
+     "name": "art/load.bin",
+     "offset": 8021376,
+     "size": 2088960,
+     "sha256": "cdee8270d7cad0bbfc33d0339fe0a2b440791248c1dd6151a5b33ca1db4f20f4"
+    },
+    {
+     "name": "art/maps.bin",
+     "offset": 10110336,
+     "size": 7164744,
+     "sha256": "3a9a6a3334924c54d718faff4f196c1db419b21afac7335deb9b4b51a155f632"
+    },
+    {
+     "name": "tracks/attract.trk",
+     "offset": 17275080,
+     "size": 1390,
+     "sha256": "64be095d0e354ec0aba6dabcb0cd5bcb7a771a163518be4674eeeec16856b7ae"
+    },
+    {
+     "name": "tracks/heavy.trk",
+     "offset": 17276470,
+     "size": 46437,
+     "sha256": "e369f239b130d5d574f1289c9e02db9eb4c28c943b8c65e982d54743a09145f0"
+    },
+    {
+     "name": "tracks/cov_char1.trk",
+     "offset": 17322907,
+     "size": 331172,
+     "sha256": "7ccc3b8c7c3a5f3513de00e12e4ac0df63c36dea3fbeb597f30e7be569339c68"
+    },
+    {
+     "name": "tracks/original/attract.trk",
+     "offset": 17654079,
+     "size": 1106,
+     "sha256": "be9048f8c75c5909e9548896b6bad41fc38d72a91ab3fc17f951e8c15e55ece4"
+    },
+    {
+     "name": "tracks/original/heavy.trk",
+     "offset": 17655185,
+     "size": 41506,
+     "sha256": "c1a44fadee4dce0ac0f457f0a999c5a65f2d5d648f6a117655402071709d058a"
+    },
+    {
+     "name": "tracks/special/attract.trk",
+     "offset": 17696691,
+     "size": 1102,
+     "sha256": "dc699e86b2d32b36d3a5bda3b7b08a4e251134d8343a48bb4ca8f2dec0d271f3"
+    },
+    {
+     "name": "tracks/special/heavy.trk",
+     "offset": 17697793,
+     "size": 46507,
+     "sha256": "283f301e1da9faf482476763f340af8aacb252954b1bcb99f9b07ab1584ba128"
+    },
+    {
+     "name": "sce_sys/icon0.png",
+     "offset": 17744300,
+     "size": 15726,
+     "sha256": "6000e89d0ba394ae9df04ebbbc253ab224408227e25cca19bc2418d53ba33ff2"
+    },
+    {
+     "name": "sce_sys/pic0.png",
+     "offset": 17760026,
+     "size": 408180,
+     "sha256": "89c053089c284342205644501df38db3aa65d6e36690ae69eae696575e98a357"
+    },
+    {
+     "name": "sce_sys/livearea/contents/bg.png",
+     "offset": 18168206,
+     "size": 330128,
+     "sha256": "9382810b077bbede91d5f35a28d009fbf9532ca69342b7f2c655e850320f0443"
+    },
+    {
+     "name": "sce_sys/livearea/contents/startup.png",
+     "offset": 18498334,
+     "size": 35521,
+     "sha256": "5c604a2ff67536ca461a61cdd9eeb6addc710d9632bf172fd383d2e7ecc220d7"
+    },
+    {
+     "name": "sce_sys/livearea/contents/template.xml",
+     "offset": 18533855,
+     "size": 249,
+     "sha256": "fe2f71ed5753c31a4f6c06cb0d1d33d4620f8d3ad72b07ab32541f74b99bae8c"
+    }
+   ]
+  }
+ },
+ "n64": {
+  "out": "n64/guwange_omen.z64",
+  "image": "image",
+  "fill": [
+   {
+    "offset": 1517992,
+    "asset": "gw_eeprom.bin"
+   },
+   {
+    "offset": 1518144,
+    "asset": "gw_lay0.bin"
+   },
+   {
+    "offset": 9906776,
+    "asset": "gw_lay1.bin"
+   },
+   {
+    "offset": 14101104,
+    "asset": "gw_lay2.bin"
+   },
+   {
+    "offset": 28361936,
+    "asset": "gw_prog.bin"
+   },
+   {
+    "offset": 29410546,
+    "asset": "gw_prog_original.bin"
+   },
+   {
+    "offset": 30459154,
+    "asset": "gw_prog_special.bin"
+   },
+   {
+    "offset": 31533976,
+    "asset": "gw_spr_base.bin"
+   },
+   {
+    "offset": 56699828,
+    "asset": "gw_spr_omen.dlt"
+   },
+   {
+    "offset": 56739148,
+    "asset": "gw_ymz.bin"
+   }
+  ],
+  "size": 61194240,
+  "md5": "9c50cc6b85fe67926b443a28fe95bf79"
+ },
+ "vita": {
+  "out": "vita/guwange_omen.vpk",
+  "entries": [
+   {
+    "name": "sce_sys/param.sfo",
+    "size": 788,
+    "crc": 3460694248,
+    "method": 8,
+    "date": 23895,
+    "time": 15727,
+    "attr": 2180972544,
+    "part": "sce_sys/param.sfo"
+   },
+   {
+    "name": "eboot.bin",
+    "size": 5636748,
+    "crc": 2876830526,
+    "method": 8,
+    "date": 23895,
+    "time": 15727,
+    "attr": 2180972544,
+    "part": "eboot.bin"
+   },
+   {
+    "name": "assets/gw_prog.bin",
+    "size": 1048576,
+    "crc": 3888823892,
+    "method": 8,
+    "date": 23893,
+    "time": 46312,
+    "attr": 2180972544,
+    "asset": "gw_prog.bin"
+   },
+   {
+    "name": "assets/gw_prog_original.bin",
+    "size": 1048576,
+    "crc": 1818478684,
+    "method": 8,
+    "date": 23893,
+    "time": 46336,
+    "attr": 2180972544,
+    "asset": "gw_prog_original.bin"
+   },
+   {
+    "name": "assets/gw_prog_special.bin",
+    "size": 1048576,
+    "crc": 4204391677,
+    "method": 8,
+    "date": 23893,
+    "time": 46340,
+    "attr": 2180972544,
+    "asset": "gw_prog_special.bin"
+   },
+   {
+    "name": "assets/gw_spr_base.bin",
+    "size": 25165824,
+    "crc": 947728201,
+    "method": 8,
+    "date": 23890,
+    "time": 42426,
+    "attr": 2180972544,
+    "asset": "gw_spr_base.bin"
+   },
+   {
+    "name": "assets/gw_spr_omen.dlt",
+    "size": 39296,
+    "crc": 1844438446,
+    "method": 8,
+    "date": 23893,
+    "time": 46342,
+    "attr": 2180972544,
+    "asset": "gw_spr_omen.dlt"
+   },
+   {
+    "name": "assets/gw_lay0.bin",
+    "size": 8388608,
+    "crc": 3607666885,
+    "method": 8,
+    "date": 23893,
+    "time": 46313,
+    "attr": 2180972544,
+    "asset": "gw_lay0.bin"
+   },
+   {
+    "name": "assets/gw_lay1.bin",
+    "size": 4194304,
+    "crc": 1748401704,
+    "method": 8,
+    "date": 23893,
+    "time": 46313,
+    "attr": 2180972544,
+    "asset": "gw_lay1.bin"
+   },
+   {
+    "name": "assets/gw_lay2.bin",
+    "size": 4194304,
+    "crc": 1049833562,
+    "method": 8,
+    "date": 23893,
+    "time": 46313,
+    "attr": 2180972544,
+    "asset": "gw_lay2.bin"
+   },
+   {
+    "name": "assets/gw_ymz.bin",
+    "size": 4194304,
+    "crc": 3017234065,
+    "method": 8,
+    "date": 23893,
+    "time": 46313,
+    "attr": 2180972544,
+    "asset": "gw_ymz.bin"
+   },
+   {
+    "name": "assets/gw_eeprom.bin",
+    "size": 128,
+    "crc": 3273083225,
+    "method": 8,
+    "date": 23893,
+    "time": 46313,
+    "attr": 2180972544,
+    "asset": "gw_eeprom.bin"
+   },
+   {
+    "name": "art/wall.bin",
+    "size": 2088960,
+    "crc": 3335172129,
+    "method": 8,
+    "date": 23895,
+    "time": 15673,
+    "attr": 2180972544,
+    "part": "art/wall.bin"
+   },
+   {
+    "name": "art/logo.bin",
+    "size": 294880,
+    "crc": 1646117564,
+    "method": 8,
+    "date": 23895,
+    "time": 15673,
+    "attr": 2180972544,
+    "part": "art/logo.bin"
+   },
+   {
+    "name": "art/load.bin",
+    "size": 2088960,
+    "crc": 705294161,
+    "method": 8,
+    "date": 23895,
+    "time": 15674,
+    "attr": 2180972544,
+    "part": "art/load.bin"
+   },
+   {
+    "name": "art/maps.bin",
+    "size": 7164744,
+    "crc": 4125739648,
+    "method": 8,
+    "date": 23894,
+    "time": 15370,
+    "attr": 2180972544,
+    "part": "art/maps.bin"
+   },
+   {
+    "name": "tracks/attract.trk",
+    "size": 1390,
+    "crc": 2817807535,
+    "method": 8,
+    "date": 23889,
+    "time": 7346,
+    "attr": 2180972544,
+    "part": "tracks/attract.trk"
+   },
+   {
+    "name": "tracks/heavy.trk",
+    "size": 46437,
+    "crc": 1302243712,
+    "method": 8,
+    "date": 23889,
+    "time": 16699,
+    "attr": 2180972544,
+    "part": "tracks/heavy.trk"
+   },
+   {
+    "name": "tracks/cov_char1.trk",
+    "size": 331172,
+    "crc": 1603689806,
+    "method": 8,
+    "date": 23889,
+    "time": 16665,
+    "attr": 2180972544,
+    "part": "tracks/cov_char1.trk"
+   },
+   {
+    "name": "tracks/original/attract.trk",
+    "size": 1106,
+    "crc": 2403644520,
+    "method": 8,
+    "date": 23890,
+    "time": 43804,
+    "attr": 2180972544,
+    "part": "tracks/original/attract.trk"
+   },
+   {
+    "name": "tracks/original/heavy.trk",
+    "size": 41506,
+    "crc": 3550521335,
+    "method": 8,
+    "date": 23890,
+    "time": 44186,
+    "attr": 2180972544,
+    "part": "tracks/original/heavy.trk"
+   },
+   {
+    "name": "tracks/special/attract.trk",
+    "size": 1102,
+    "crc": 860161514,
+    "method": 8,
+    "date": 23890,
+    "time": 43805,
+    "attr": 2180972544,
+    "part": "tracks/special/attract.trk"
+   },
+   {
+    "name": "tracks/special/heavy.trk",
+    "size": 46507,
+    "crc": 3758745886,
+    "method": 8,
+    "date": 23890,
+    "time": 44182,
+    "attr": 2180972544,
+    "part": "tracks/special/heavy.trk"
+   },
+   {
+    "name": "sce_sys/icon0.png",
+    "size": 15726,
+    "crc": 1356225721,
+    "method": 8,
+    "date": 23895,
+    "time": 15674,
+    "attr": 2180972544,
+    "part": "sce_sys/icon0.png"
+   },
+   {
+    "name": "sce_sys/pic0.png",
+    "size": 408180,
+    "crc": 890662116,
+    "method": 8,
+    "date": 23895,
+    "time": 15674,
+    "attr": 2180972544,
+    "part": "sce_sys/pic0.png"
+   },
+   {
+    "name": "sce_sys/livearea/contents/bg.png",
+    "size": 330128,
+    "crc": 394302323,
+    "method": 8,
+    "date": 23895,
+    "time": 15674,
+    "attr": 2180972544,
+    "part": "sce_sys/livearea/contents/bg.png"
+   },
+   {
+    "name": "sce_sys/livearea/contents/startup.png",
+    "size": 35521,
+    "crc": 4136416225,
+    "method": 8,
+    "date": 23895,
+    "time": 15674,
+    "attr": 2180972544,
+    "part": "sce_sys/livearea/contents/startup.png"
+   },
+   {
+    "name": "sce_sys/livearea/contents/template.xml",
+    "size": 249,
+    "crc": 1011321377,
+    "method": 8,
+    "date": 23895,
+    "time": 15674,
+    "attr": 2180972544,
+    "part": "sce_sys/livearea/contents/template.xml"
+   }
+  ]
+ },
+ "arcade": {
+  "out": "arcade/guwangeo.zip",
+  "files": [
+   {
+    "name": "gu-u0127b.bin",
+    "base": "gu-u0127b.bin",
+    "ips": "gu-u0127b.ips",
+    "ips_sha256": "8b71a2f5ffe2d3debcefe0e1fe714c1d07b9f5fb9655f825c5a627ab79de74e6",
+    "size": 524288,
+    "crc": 3562679389
+   },
+   {
+    "name": "gu-u0129b.bin",
+    "base": "gu-u0129b.bin",
+    "ips": "gu-u0129b.ips",
+    "ips_sha256": "352e852bfe06ef3721e5fd42da640ceb7d8493b389194c96e74ce63feeb4bbd0",
+    "size": 524288,
+    "crc": 1653053949
+   },
+   {
+    "name": "u086.bin",
+    "base": "u086.bin",
+    "ips": "u086.ips",
+    "ips_sha256": "e815189e658591df888fef1afc44fd7745bca2243873f69ea2f5afd57d8ef814",
+    "size": 4194304,
+    "crc": 3924893755
+   },
+   {
+    "name": "u085.bin",
+    "base": "u085.bin",
+    "ips": "u085.ips",
+    "ips_sha256": "ee52beb98712f4546b2ad6dcc82177d46cde35bd1033c16c26b4d4f028d981c0",
+    "size": 4194304,
+    "crc": 2541555946
+   }
+  ]
+ },
+ "manuals": [
+  {
+   "platform": "n64",
+   "out": "manual/guwange_omen_manual_n64.pdf",
+   "part": "guwange_omen_manual_n64.pdf"
+  },
+  {
+   "platform": "n64",
+   "out": "manual/guwange_omen_manual_n64_ja.pdf",
+   "part": "guwange_omen_manual_n64_ja.pdf"
+  },
+  {
+   "platform": "vita",
+   "out": "manual/guwange_omen_manual_vita.pdf",
+   "part": "guwange_omen_manual_vita.pdf"
+  },
+  {
+   "platform": "vita",
+   "out": "manual/guwange_omen_manual_vita_ja.pdf",
+   "part": "guwange_omen_manual_vita_ja.pdf"
+  }
+ ]
+}

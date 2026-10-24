@@ -1,0 +1,20 @@
+# your ROMs and what the kit makes from them: never commit these
+Guwange_Omen_Kit/roms/*
+!Guwange_Omen_Kit/roms/PUT_ROMS_HERE.txt
+Guwange_Omen_Kit/output/
+*.zip
+*.bin.bak
+*.z64
+*.v64
+*.n64
+*.vpk
+*.eep
+*.sav
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+.vscode/
+.idea/

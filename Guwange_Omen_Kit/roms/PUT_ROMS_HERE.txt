@@ -1,0 +1,1 @@
+Put your Guwange ROM zips here (MAME guwange.zip with guwanges: a merged guwange.zip, or guwange.zip and guwanges.zip).

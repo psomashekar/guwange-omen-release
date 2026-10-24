@@ -1,0 +1,6 @@
+* text=auto
+*.bin binary
+*.pdf binary
+*.png binary
+*.exe binary
+guwange-kit-* binary
